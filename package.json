@@ -1,0 +1,16 @@
+{
+  "name": "whatsit-index",
+  "version": "0.0.1",
+  "description": "whatsit-API subscribe and create whatsit-index-video pod",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/app.js"
+  },
+  "author": "k@bluehack.net",
+  "license": "MIT",
+  "dependencies": {
+    "child-process-promise": "^2.2.1",
+    "node-redis-pubsub": "^1.0.3",
+    "whatsit-pubsub": "0.0.12"
+  }
+}
