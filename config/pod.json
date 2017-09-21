@@ -14,8 +14,8 @@
       "name": "whatsit-index-video",
       "image": "gcr.io/whatsit-174908/whatsit-index-video:latest",
       "env": [{
-        "name": "podId",
-        "value": ""
+        "name": "DATA_SET_ID",
+        "value": "datasetId"
       }]
     }]
   }
